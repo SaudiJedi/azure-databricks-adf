@@ -61,7 +61,7 @@ The container will have the three folders/directories:
 #### 5.1.2 Azure Data Factory
 1. Create *Azure Data Factory*, you can refer to the following docs for the setup process:
     - [Quickstart: Create a data factory by using the Azure portal — Microsoft Learn](https://learn.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory)
-    - [Quickstart: Get started with Azure Data Factory — Microsoft Learn](https://learn.microsoft.com/en-us/azure/data-factory/quickstart-get-started)\
+    - [Quickstart: Get started with Azure Data Factory — Microsoft Learn](https://learn.microsoft.com/en-us/azure/data-factory/quickstart-get-started)
 
 ***[Please be adviced about this tip before the next step to create and test run your pipelines after the finishing of the Databricks creation to add the Databricks as a linked service and then later after the transformation adding the notebook of model deployment to that linked service to trigger the notebook.]***
 
