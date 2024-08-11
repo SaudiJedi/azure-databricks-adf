@@ -29,7 +29,7 @@ These are 2 slow change tables, we need to update them once every week. The upda
 - Create a Data Lake. It is nothing but the Azure Storage Blob but with the features of hierarchical namespace.
 - Create an Azure Data Factory to finish the data ingestion and processing.
 - Connect to an AWS RDS Postgres database and ingest PostTypes and Users tables from RDS to your Data Lake. But you need to ingest once every week.
-- Connect to a WeCloudData Azure blob container to copy the parquet files of Posts from StackOverflow into your data lake. You need to ingest it every day.
+- Connect to an Azure blob container to copy the parquet files of Posts from StackOverflow into your data lake. You need to ingest it every day.
 
 ### 3.2 Machine Learning Process Requirements
 You need to create a Databricks notebook to process data and feed the data into a Machine Learning Model, and output the running result from the Machine Learning Model.\
